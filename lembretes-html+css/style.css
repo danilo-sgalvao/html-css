@@ -1,0 +1,81 @@
+/* 
+
+SELETORES PERSONALIZADOS:
+
+    #  = id
+    .  = class
+    :  = pseudo-class
+    :: = pseudo-element
+    >  = children
+
+PROPRIEDADES DE BORDA:
+
+   largura	->	border-width: 10px;
+
+   estilo	->	border-style: solid;	 (sólida)
+					     : dashed;	 (tracejada)
+					     : dotted;	 (pontilhada)
+					     : double;	 (dupla)
+					     : groove;	 (em 3d)
+
+   cor 	->	border-color: red;
+
+  - Shorthand: 
+
+	border: 10px solid red (largura, estilo, cor)
+
+
+PROPRIEDADES DE PADDING:
+
+	padding-top: 10px;	   (de topo)
+	padding-right: 10px;	   (à direita)
+	padding-bottom: 10px    (de baixo)
+	padding-left: 10px;	   (à esquerda)
+
+  - Shorthand: 
+	
+	padding: 15px 10px 15px 10px;    (sent. horário: top, right, bottom, left)
+	padding: 10px; 		(os 4 lados iguais a 10px)
+	padding: 15px 10px;	 (cima e baixo 15px / esquerda e direita 10px)
+
+PROPRIEDADES DE MARGEM:
+
+	margin-top:  10px;
+	margin-right:  10px;
+	margin-bottom:  10px;
+	margin-left:  10px;
+
+    Shorthand: 
+	
+	margin: 15px 10px 15px 10px;   (sent. horário: top, right, bottom e left)
+	margin: 10px; 	(nos 4 lados iguais a 10px)
+	margin: 15px 10px;	(topo e baixo 15px; esquerda e direita 10px)
+	margin: 15px 10px 25px;	(cima 15px; esquerda e direita 10px; baixo 25px)
+	margin: 10px auto 15px auto   (cima 10 px; baixo 15px; esq/direita auto)
+
+    Centralizar horizontalmente caixa na tela:
+	
+	margin: auto;
+
+PROPRIEDADES DE OUTLINE (semelhantes as de borda):
+
+	outline-width:  5px;
+	outline-style:  dashed;
+	outline-color:  salmon;
+
+    Shorthand:
+
+	outline: 5px dashed salmon; (largura, estilo, cor)
+
+TRANSFORMAR BOX-LEVEL EM INLINE-LEVEL E VICE-VERSA:
+
+   ex:	h1 {                              ->  h1 era originalmente block (box)
+		  display: inline;
+		}
+
+		a {                              ->  a era originalmente inline
+		  display: block;
+		}
+	
+    - Obs:      display: inline-block;        ->         inline, com algumas características de block
+*/

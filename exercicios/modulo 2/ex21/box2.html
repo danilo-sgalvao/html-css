@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(83, 83, 83, 0.774);
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav{
+            background-color: rgb(126, 124, 124);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.436);
+        }
+
+        nav > a {
+            color: white;
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            border-radius: 2px;
+            border-radius: 15px;
+        }
+
+        section {
+            padding: 10px;
+        }
+
+        article {
+            background-color: rgb(186, 186, 186);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        article > aside {
+            color: blueviolet;
+        }
+        
+        aside > p {
+            background-color: burlywood;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Importante
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre algo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime, quos laboriosam consequatur praesentium corporis, nesciunt blanditiis tempora quam cumque expedita accusamus, eum omnis vel architecto voluptatem officiis delectus minima.</p>
+                <aside>
+                    <p>Artigo escrito por zé</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Minhafonte';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    margin: 0px;
+    background-color: #c5ebd6;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 137, 84), rgb(0, 34, 16));
+    width: 100%;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav{
+    margin-left: 15px;
+    padding: 5px;
+}
+
+nav > a {
+    color: rgb(70, 175, 123);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+nav > a:hover {
+    background-color: rgba(156, 195, 183, 0.36);
+    color: rgb(0, 34, 16);
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    padding: 1px;
+}
+
+section {
+    padding: 15px;    
+}
+
+section > p {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+section > h2 {
+    font-family: 'MinhaFonte';
+    color: rgb(0, 73, 34);
+    background-image: linear-gradient(to right, rgb(151, 231, 151), white);
+}
+
+section > h3 {
+    font-family: 'MinhaFonte';
+    color: rgb(0, 73, 34);
+    background-image: linear-gradient(to right, rgb(151, 231, 151), white);
+}
+
+section > img{
+    width: 100%; 
+}
+
+#bugzinho {
+   text-align: center;
+}
+
+#bugzinho > img {
+    display: inline-block;
+    
+}
+
+#video {
+    padding:20px 30px 20px 30px;
+    background-color: darkgreen;
+}
+
+#mais {
+    background-color: lightseagreen;
+    margin: 20px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+h4 {
+    background-color: darkgreen;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#final {
+    text-indent: 2em;
+    padding: 15px;
+}
+
+footer {
+    background-color: darkgreen;
+    text-align: center;
+   
+}
+
+footer > p {
+    margin-bottom: 0px;
+    padding: 3px;
+    color: white;
+}
+
